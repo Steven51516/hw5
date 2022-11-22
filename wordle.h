@@ -3,6 +3,7 @@
 
 #include <set>
 #include <string>
+#include<vector>
 
 /**
  * @brief Returns the list of all legal words in the provided dictionary
@@ -19,5 +20,4 @@ std::set<std::string> wordle(
     const std::string& in,
     const std::string& floating,
     const std::set<std::string>& dict);
-
 #endif
